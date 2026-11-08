@@ -13,9 +13,9 @@
     "url": "https://github.com/workos/template-convex-nextjs-authkit/issues"
   },
   "scripts": {
-    "dev": "convex dev --start 'next dev'",
-    "build": "next build",
-    "start": "next start",
+    "dev": "node init && convex dev --start 'next dev'",
+    "build": "node init && next build",
+    "start": "node init && next start",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
